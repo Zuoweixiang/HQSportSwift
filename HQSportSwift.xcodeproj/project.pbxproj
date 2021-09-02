@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CBF5F4526C39B2B00E37CE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4426C39B2B00E37CE2 /* AppDelegate.swift */; };
+		9CBF5F4726C39B2B00E37CE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4626C39B2B00E37CE2 /* SceneDelegate.swift */; };
+		9CBF5F4926C39B2B00E37CE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4826C39B2B00E37CE2 /* ViewController.swift */; };
+		9CBF5F4C26C39B2B00E37CE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4A26C39B2B00E37CE2 /* Main.storyboard */; };
+		9CBF5F4E26C39B2D00E37CE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4D26C39B2D00E37CE2 /* Assets.xcassets */; };
+		9CBF5F5126C39B2D00E37CE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4F26C39B2D00E37CE2 /* LaunchScreen.storyboard */; };
+		9CBF5F5C26C39B2D00E37CE2 /* HQSportSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F5B26C39B2D00E37CE2 /* HQSportSwiftTests.swift */; };
+		9CBF5F6726C39B2D00E37CE2 /* HQSportSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F6626C39B2D00E37CE2 /* HQSportSwiftUITests.swift */; };
+		9CCA8EC326CB86FC00DAE4BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA8EC226CB86FC00DAE4BA /* HomeViewController.swift */; };
+		9CCA8EC526CB870B00DAE4BA /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA8EC426CB870B00DAE4BA /* MineViewController.swift */; };
+		9CCA8EC726CB871900DAE4BA /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA8EC626CB871900DAE4BA /* MatchViewController.swift */; };
+		9CCA8EC926CB872B00DAE4BA /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA8EC826CB872B00DAE4BA /* CommunityViewController.swift */; };
+		9CCA8ECB26CB98B900DAE4BA /* HQRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA8ECA26CB98B900DAE4BA /* HQRequest.swift */; };
+		9CCA8ECD26CCAAD900DAE4BA /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA8ECC26CCAAD800DAE4BA /* launch.png */; };
+		D9F6FD5CC07695847AC816F9 /* Pods_HQSportSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635050571CC4872973BD417D /* Pods_HQSportSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CBF5F5826C39B2D00E37CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CBF5F3926C39B2B00E37CE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CBF5F4026C39B2B00E37CE2;
+			remoteInfo = HQSportSwift;
+		};
+		9CBF5F6326C39B2D00E37CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CBF5F3926C39B2B00E37CE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CBF5F4026C39B2B00E37CE2;
+			remoteInfo = HQSportSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635050571CC4872973BD417D /* Pods_HQSportSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQSportSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBF5F4126C39B2B00E37CE2 /* HQSportSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQSportSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBF5F4426C39B2B00E37CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CBF5F4626C39B2B00E37CE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9CBF5F4826C39B2B00E37CE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CBF5F4B26C39B2B00E37CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CBF5F4D26C39B2D00E37CE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CBF5F5026C39B2D00E37CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CBF5F5226C39B2D00E37CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBF5F5726C39B2D00E37CE2 /* HQSportSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQSportSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBF5F5B26C39B2D00E37CE2 /* HQSportSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQSportSwiftTests.swift; sourceTree = "<group>"; };
+		9CBF5F5D26C39B2D00E37CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBF5F6226C39B2D00E37CE2 /* HQSportSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQSportSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBF5F6626C39B2D00E37CE2 /* HQSportSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQSportSwiftUITests.swift; sourceTree = "<group>"; };
+		9CBF5F6826C39B2D00E37CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CCA8EC226CB86FC00DAE4BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9CCA8EC426CB870B00DAE4BA /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		9CCA8EC626CB871900DAE4BA /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		9CCA8EC826CB872B00DAE4BA /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		9CCA8ECA26CB98B900DAE4BA /* HQRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQRequest.swift; sourceTree = "<group>"; };
+		9CCA8ECC26CCAAD800DAE4BA /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = "../../../@xzw/hqsport/HQSport/HQSport/Resources/launch.png"; sourceTree = "<group>"; };
+		ADA57E3B3C5CE1651D08535E /* Pods-HQSportSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQSportSwift.release.xcconfig"; path = "Target Support Files/Pods-HQSportSwift/Pods-HQSportSwift.release.xcconfig"; sourceTree = "<group>"; };
+		B8BD6FCC880F01A732317FF4 /* Pods-HQSportSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQSportSwift.debug.xcconfig"; path = "Target Support Files/Pods-HQSportSwift/Pods-HQSportSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CBF5F3E26C39B2B00E37CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F6FD5CC07695847AC816F9 /* Pods_HQSportSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBF5F5426C39B2D00E37CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBF5F5F26C39B2D00E37CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06845093D8A6AC8642BC80B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8BD6FCC880F01A732317FF4 /* Pods-HQSportSwift.debug.xcconfig */,
+				ADA57E3B3C5CE1651D08535E /* Pods-HQSportSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0DC006EEC5229D00068BB154 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				635050571CC4872973BD417D /* Pods_HQSportSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CBF5F3826C39B2B00E37CE2 = {
+			isa = PBXGroup;
+			children = (
+				9CBF5F4326C39B2B00E37CE2 /* HQSportSwift */,
+				9CBF5F5A26C39B2D00E37CE2 /* HQSportSwiftTests */,
+				9CBF5F6526C39B2D00E37CE2 /* HQSportSwiftUITests */,
+				9CBF5F4226C39B2B00E37CE2 /* Products */,
+				06845093D8A6AC8642BC80B1 /* Pods */,
+				0DC006EEC5229D00068BB154 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CBF5F4226C39B2B00E37CE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CBF5F4126C39B2B00E37CE2 /* HQSportSwift.app */,
+				9CBF5F5726C39B2D00E37CE2 /* HQSportSwiftTests.xctest */,
+				9CBF5F6226C39B2D00E37CE2 /* HQSportSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CBF5F4326C39B2B00E37CE2 /* HQSportSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9CCA8ECC26CCAAD800DAE4BA /* launch.png */,
+				9CBF5F4426C39B2B00E37CE2 /* AppDelegate.swift */,
+				9CBF5F4626C39B2B00E37CE2 /* SceneDelegate.swift */,
+				9CBF5F4826C39B2B00E37CE2 /* ViewController.swift */,
+				9CBF5F4A26C39B2B00E37CE2 /* Main.storyboard */,
+				9CBF5F4D26C39B2D00E37CE2 /* Assets.xcassets */,
+				9CBF5F4F26C39B2D00E37CE2 /* LaunchScreen.storyboard */,
+				9CBF5F5226C39B2D00E37CE2 /* Info.plist */,
+				9CCA8EC226CB86FC00DAE4BA /* HomeViewController.swift */,
+				9CCA8EC426CB870B00DAE4BA /* MineViewController.swift */,
+				9CCA8EC626CB871900DAE4BA /* MatchViewController.swift */,
+				9CCA8EC826CB872B00DAE4BA /* CommunityViewController.swift */,
+				9CCA8ECA26CB98B900DAE4BA /* HQRequest.swift */,
+			);
+			path = HQSportSwift;
+			sourceTree = "<group>";
+		};
+		9CBF5F5A26C39B2D00E37CE2 /* HQSportSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CBF5F5B26C39B2D00E37CE2 /* HQSportSwiftTests.swift */,
+				9CBF5F5D26C39B2D00E37CE2 /* Info.plist */,
+			);
+			path = HQSportSwiftTests;
+			sourceTree = "<group>";
+		};
+		9CBF5F6526C39B2D00E37CE2 /* HQSportSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CBF5F6626C39B2D00E37CE2 /* HQSportSwiftUITests.swift */,
+				9CBF5F6826C39B2D00E37CE2 /* Info.plist */,
+			);
+			path = HQSportSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CBF5F4026C39B2B00E37CE2 /* HQSportSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CBF5F6B26C39B2D00E37CE2 /* Build configuration list for PBXNativeTarget "HQSportSwift" */;
+			buildPhases = (
+				79E30B33BA3890941F9ECC24 /* [CP] Check Pods Manifest.lock */,
+				9CBF5F3D26C39B2B00E37CE2 /* Sources */,
+				9CBF5F3E26C39B2B00E37CE2 /* Frameworks */,
+				9CBF5F3F26C39B2B00E37CE2 /* Resources */,
+				98F93A3F31DFC9CD7D612A8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HQSportSwift;
+			productName = HQSportSwift;
+			productReference = 9CBF5F4126C39B2B00E37CE2 /* HQSportSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CBF5F5626C39B2D00E37CE2 /* HQSportSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CBF5F6E26C39B2D00E37CE2 /* Build configuration list for PBXNativeTarget "HQSportSwiftTests" */;
+			buildPhases = (
+				9CBF5F5326C39B2D00E37CE2 /* Sources */,
+				9CBF5F5426C39B2D00E37CE2 /* Frameworks */,
+				9CBF5F5526C39B2D00E37CE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CBF5F5926C39B2D00E37CE2 /* PBXTargetDependency */,
+			);
+			name = HQSportSwiftTests;
+			productName = HQSportSwiftTests;
+			productReference = 9CBF5F5726C39B2D00E37CE2 /* HQSportSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CBF5F6126C39B2D00E37CE2 /* HQSportSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CBF5F7126C39B2D00E37CE2 /* Build configuration list for PBXNativeTarget "HQSportSwiftUITests" */;
+			buildPhases = (
+				9CBF5F5E26C39B2D00E37CE2 /* Sources */,
+				9CBF5F5F26C39B2D00E37CE2 /* Frameworks */,
+				9CBF5F6026C39B2D00E37CE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CBF5F6426C39B2D00E37CE2 /* PBXTargetDependency */,
+			);
+			name = HQSportSwiftUITests;
+			productName = HQSportSwiftUITests;
+			productReference = 9CBF5F6226C39B2D00E37CE2 /* HQSportSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CBF5F3926C39B2B00E37CE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9CBF5F4026C39B2B00E37CE2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9CBF5F5626C39B2D00E37CE2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9CBF5F4026C39B2B00E37CE2;
+					};
+					9CBF5F6126C39B2D00E37CE2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9CBF5F4026C39B2B00E37CE2;
+					};
+				};
+			};
+			buildConfigurationList = 9CBF5F3C26C39B2B00E37CE2 /* Build configuration list for PBXProject "HQSportSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CBF5F3826C39B2B00E37CE2;
+			productRefGroup = 9CBF5F4226C39B2B00E37CE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CBF5F4026C39B2B00E37CE2 /* HQSportSwift */,
+				9CBF5F5626C39B2D00E37CE2 /* HQSportSwiftTests */,
+				9CBF5F6126C39B2D00E37CE2 /* HQSportSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CBF5F3F26C39B2B00E37CE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCA8ECD26CCAAD900DAE4BA /* launch.png in Resources */,
+				9CBF5F5126C39B2D00E37CE2 /* LaunchScreen.storyboard in Resources */,
+				9CBF5F4E26C39B2D00E37CE2 /* Assets.xcassets in Resources */,
+				9CBF5F4C26C39B2B00E37CE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBF5F5526C39B2D00E37CE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBF5F6026C39B2D00E37CE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79E30B33BA3890941F9ECC24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HQSportSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98F93A3F31DFC9CD7D612A8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HQSportSwift/Pods-HQSportSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HQSportSwift/Pods-HQSportSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HQSportSwift/Pods-HQSportSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CBF5F3D26C39B2B00E37CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCA8EC726CB871900DAE4BA /* MatchViewController.swift in Sources */,
+				9CBF5F4926C39B2B00E37CE2 /* ViewController.swift in Sources */,
+				9CBF5F4526C39B2B00E37CE2 /* AppDelegate.swift in Sources */,
+				9CBF5F4726C39B2B00E37CE2 /* SceneDelegate.swift in Sources */,
+				9CCA8ECB26CB98B900DAE4BA /* HQRequest.swift in Sources */,
+				9CCA8EC326CB86FC00DAE4BA /* HomeViewController.swift in Sources */,
+				9CCA8EC526CB870B00DAE4BA /* MineViewController.swift in Sources */,
+				9CCA8EC926CB872B00DAE4BA /* CommunityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBF5F5326C39B2D00E37CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBF5F5C26C39B2D00E37CE2 /* HQSportSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBF5F5E26C39B2D00E37CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBF5F6726C39B2D00E37CE2 /* HQSportSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CBF5F5926C39B2D00E37CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CBF5F4026C39B2B00E37CE2 /* HQSportSwift */;
+			targetProxy = 9CBF5F5826C39B2D00E37CE2 /* PBXContainerItemProxy */;
+		};
+		9CBF5F6426C39B2D00E37CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CBF5F4026C39B2B00E37CE2 /* HQSportSwift */;
+			targetProxy = 9CBF5F6326C39B2D00E37CE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CBF5F4A26C39B2B00E37CE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CBF5F4B26C39B2B00E37CE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CBF5F4F26C39B2D00E37CE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CBF5F5026C39B2D00E37CE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CBF5F6926C39B2D00E37CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CBF5F6A26C39B2D00E37CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CBF5F6C26C39B2D00E37CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BD6FCC880F01A732317FF4 /* Pods-HQSportSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HQSportSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duomanfen.HQSportSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9CBF5F6D26C39B2D00E37CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA57E3B3C5CE1651D08535E /* Pods-HQSportSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HQSportSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duomanfen.HQSportSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9CBF5F6F26C39B2D00E37CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HQSportSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duomanfen.HQSportSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HQSportSwift.app/HQSportSwift";
+			};
+			name = Debug;
+		};
+		9CBF5F7026C39B2D00E37CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HQSportSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duomanfen.HQSportSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HQSportSwift.app/HQSportSwift";
+			};
+			name = Release;
+		};
+		9CBF5F7226C39B2D00E37CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HQSportSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duomanfen.HQSportSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HQSportSwift;
+			};
+			name = Debug;
+		};
+		9CBF5F7326C39B2D00E37CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HQSportSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duomanfen.HQSportSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HQSportSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CBF5F3C26C39B2B00E37CE2 /* Build configuration list for PBXProject "HQSportSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBF5F6926C39B2D00E37CE2 /* Debug */,
+				9CBF5F6A26C39B2D00E37CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CBF5F6B26C39B2D00E37CE2 /* Build configuration list for PBXNativeTarget "HQSportSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBF5F6C26C39B2D00E37CE2 /* Debug */,
+				9CBF5F6D26C39B2D00E37CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CBF5F6E26C39B2D00E37CE2 /* Build configuration list for PBXNativeTarget "HQSportSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBF5F6F26C39B2D00E37CE2 /* Debug */,
+				9CBF5F7026C39B2D00E37CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CBF5F7126C39B2D00E37CE2 /* Build configuration list for PBXNativeTarget "HQSportSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBF5F7226C39B2D00E37CE2 /* Debug */,
+				9CBF5F7326C39B2D00E37CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CBF5F3926C39B2B00E37CE2 /* Project object */;
+}
