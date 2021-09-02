@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        HQRequest.reuest(url:"/jmfen-sport-passport/v2/gt", header:Dictionary(), method: HTTPMethod.post, parameters: ["un":"13333333333"]) { responseDist  in
+        HQRequest.reuest(url:"/jmfen-sport-passport/v2/gt?un=13333333333", header:HQRequest.httpHeader()!, method: HTTPMethod.post, parameters: ["un":"13333333333"]) { responseDist  in
             print(responseDist)
         } fail: { msg, error in
             
