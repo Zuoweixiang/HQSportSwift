@@ -14,6 +14,9 @@
 		9C29606926E1E5BF00C66943 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29606626E1E5BF00C66943 /* CommunityViewController.swift */; };
 		9C29607026E1E5E700C66943 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29606D26E1E5E600C66943 /* MatchViewController.swift */; };
 		9C29607526E1E5F600C66943 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29607426E1E5F600C66943 /* MineViewController.swift */; };
+		9C29607626E1EDEA00C66943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4F26C39B2D00E37CE2 /* LaunchScreen.storyboard */; };
+		9C29607726E1EDEA00C66943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4A26C39B2B00E37CE2 /* Main.storyboard */; };
+		9C29608326E1EF3B00C66943 /* XMUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29608226E1EF3B00C66943 /* XMUserModel.swift */; };
 		9CBF5F5C26C39B2D00E37CE2 /* HQSportSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F5B26C39B2D00E37CE2 /* HQSportSwiftTests.swift */; };
 		9CBF5F6726C39B2D00E37CE2 /* HQSportSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F6626C39B2D00E37CE2 /* HQSportSwiftUITests.swift */; };
 		D9F6FD5CC07695847AC816F9 /* Pods_HQSportSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635050571CC4872973BD417D /* Pods_HQSportSwift.framework */; };
@@ -46,6 +49,7 @@
 		9C29606626E1E5BF00C66943 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		9C29606D26E1E5E600C66943 /* MatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
 		9C29607426E1E5F600C66943 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		9C29608226E1EF3B00C66943 /* XMUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMUserModel.swift; sourceTree = "<group>"; };
 		9CBF5F4126C39B2B00E37CE2 /* HQSportSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQSportSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBF5F4B26C39B2B00E37CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CBF5F4D26C39B2D00E37CE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -250,6 +254,38 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		9C29607826E1EEB200C66943 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				9C29608026E1EF1900C66943 /* controller */,
+				9C29608126E1EF1A00C66943 /* model */,
+				9C29607F26E1EF1900C66943 /* view */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		9C29607F26E1EF1900C66943 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9C29608026E1EF1900C66943 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		9C29608126E1EF1A00C66943 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9C29608226E1EF3B00C66943 /* XMUserModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		9CBF5F3826C39B2B00E37CE2 = {
 			isa = PBXGroup;
 			children = (
@@ -281,9 +317,10 @@
 				9C29603626E1D2CB00C66943 /* match */,
 				9C29604226E1D2CB00C66943 /* mine */,
 				9C29604026E1D2CB00C66943 /* network */,
-				9CCA8ECC26CCAAD800DAE4BA /* launch.png */,
+				9C29607826E1EEB200C66943 /* login */,
 				9CBF5F4F26C39B2D00E37CE2 /* LaunchScreen.storyboard */,
 				9CBF5F4A26C39B2B00E37CE2 /* Main.storyboard */,
+				9CCA8ECC26CCAAD800DAE4BA /* launch.png */,
 				9CBF5F4D26C39B2D00E37CE2 /* Assets.xcassets */,
 			);
 			path = HQSportSwift;
@@ -412,6 +449,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C29607626E1EDEA00C66943 /* LaunchScreen.storyboard in Resources */,
+				9C29607726E1EDEA00C66943 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +522,7 @@
 				9C29607026E1E5E700C66943 /* MatchViewController.swift in Sources */,
 				9C29607526E1E5F600C66943 /* MineViewController.swift in Sources */,
 				9C29606926E1E5BF00C66943 /* CommunityViewController.swift in Sources */,
+				9C29608326E1EF3B00C66943 /* XMUserModel.swift in Sources */,
 				9C29606026E1DE7F00C66943 /* HomeViewController.swift in Sources */,
 				9C29606326E1DE7F00C66943 /* HQRequest.swift in Sources */,
 			);

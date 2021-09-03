@@ -10,23 +10,6 @@ import Alamofire
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-/*
-     
-     //XMGetSecretApi un = 13333333333  baseUrl = https://gw.sit.qiuhui.com
-     
-     [HQRequest requestWithUrl:@"jmfen-sport-passport/v2/gt" header:@{} method:@"POST" params:@{@"un":@"13333333333"} resoneseParser:^id _Nullable(id  _Nonnull responseObj) {
-         if ([responseObj isKindOfClass:NSDictionary.class] || [responseObj isKindOfClass:NSArray.class]) {
-             NSString *tk = responseObj[@"tk"];
-             return tk;
-         }
-         return  nil;
-     } timeout:30 success:^(id  _Nonnull responseObj) {
-         
-     } fail:^(NSString * _Nonnull msg, NSError * _Nonnull err) {
-         
-     }];
-     */
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
