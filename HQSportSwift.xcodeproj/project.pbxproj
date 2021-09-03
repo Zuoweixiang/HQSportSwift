@@ -7,20 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9CBF5F4526C39B2B00E37CE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4426C39B2B00E37CE2 /* AppDelegate.swift */; };
-		9CBF5F4726C39B2B00E37CE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4626C39B2B00E37CE2 /* SceneDelegate.swift */; };
-		9CBF5F4926C39B2B00E37CE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4826C39B2B00E37CE2 /* ViewController.swift */; };
-		9CBF5F4C26C39B2B00E37CE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4A26C39B2B00E37CE2 /* Main.storyboard */; };
-		9CBF5F4E26C39B2D00E37CE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4D26C39B2D00E37CE2 /* Assets.xcassets */; };
-		9CBF5F5126C39B2D00E37CE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBF5F4F26C39B2D00E37CE2 /* LaunchScreen.storyboard */; };
+		9C29605D26E1DE7F00C66943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29603C26E1D2CB00C66943 /* AppDelegate.swift */; };
+		9C29605E26E1DE7F00C66943 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29603F26E1D2CB00C66943 /* SceneDelegate.swift */; };
+		9C29606026E1DE7F00C66943 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29603A26E1D2CB00C66943 /* HomeViewController.swift */; };
+		9C29606326E1DE7F00C66943 /* HQRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29604126E1D2CB00C66943 /* HQRequest.swift */; };
+		9C29606926E1E5BF00C66943 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29606626E1E5BF00C66943 /* CommunityViewController.swift */; };
+		9C29607026E1E5E700C66943 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29606D26E1E5E600C66943 /* MatchViewController.swift */; };
+		9C29607526E1E5F600C66943 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C29607426E1E5F600C66943 /* MineViewController.swift */; };
 		9CBF5F5C26C39B2D00E37CE2 /* HQSportSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F5B26C39B2D00E37CE2 /* HQSportSwiftTests.swift */; };
 		9CBF5F6726C39B2D00E37CE2 /* HQSportSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBF5F6626C39B2D00E37CE2 /* HQSportSwiftUITests.swift */; };
-		9CCA8EC326CB86FC00DAE4BA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA8EC226CB86FC00DAE4BA /* HomeViewController.swift */; };
-		9CCA8EC526CB870B00DAE4BA /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA8EC426CB870B00DAE4BA /* MineViewController.swift */; };
-		9CCA8EC726CB871900DAE4BA /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA8EC626CB871900DAE4BA /* MatchViewController.swift */; };
-		9CCA8EC926CB872B00DAE4BA /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA8EC826CB872B00DAE4BA /* CommunityViewController.swift */; };
-		9CCA8ECB26CB98B900DAE4BA /* HQRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCA8ECA26CB98B900DAE4BA /* HQRequest.swift */; };
-		9CCA8ECD26CCAAD900DAE4BA /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCA8ECC26CCAAD800DAE4BA /* launch.png */; };
 		D9F6FD5CC07695847AC816F9 /* Pods_HQSportSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635050571CC4872973BD417D /* Pods_HQSportSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,25 +38,24 @@
 
 /* Begin PBXFileReference section */
 		635050571CC4872973BD417D /* Pods_HQSportSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQSportSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C29603A26E1D2CB00C66943 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9C29603C26E1D2CB00C66943 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C29603F26E1D2CB00C66943 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C29604126E1D2CB00C66943 /* HQRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQRequest.swift; sourceTree = "<group>"; };
+		9C29605B26E1DE7100C66943 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C29606626E1E5BF00C66943 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		9C29606D26E1E5E600C66943 /* MatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		9C29607426E1E5F600C66943 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		9CBF5F4126C39B2B00E37CE2 /* HQSportSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQSportSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CBF5F4426C39B2B00E37CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CBF5F4626C39B2B00E37CE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CBF5F4826C39B2B00E37CE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CBF5F4B26C39B2B00E37CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CBF5F4D26C39B2D00E37CE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CBF5F5026C39B2D00E37CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9CBF5F5226C39B2D00E37CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CBF5F5726C39B2D00E37CE2 /* HQSportSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQSportSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBF5F5B26C39B2D00E37CE2 /* HQSportSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQSportSwiftTests.swift; sourceTree = "<group>"; };
 		9CBF5F5D26C39B2D00E37CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CBF5F6226C39B2D00E37CE2 /* HQSportSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQSportSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBF5F6626C39B2D00E37CE2 /* HQSportSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQSportSwiftUITests.swift; sourceTree = "<group>"; };
 		9CBF5F6826C39B2D00E37CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CCA8EC226CB86FC00DAE4BA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		9CCA8EC426CB870B00DAE4BA /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
-		9CCA8EC626CB871900DAE4BA /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
-		9CCA8EC826CB872B00DAE4BA /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
-		9CCA8ECA26CB98B900DAE4BA /* HQRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQRequest.swift; sourceTree = "<group>"; };
 		9CCA8ECC26CCAAD800DAE4BA /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = "../../../@xzw/hqsport/HQSport/HQSport/Resources/launch.png"; sourceTree = "<group>"; };
 		ADA57E3B3C5CE1651D08535E /* Pods-HQSportSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQSportSwift.release.xcconfig"; path = "Target Support Files/Pods-HQSportSwift/Pods-HQSportSwift.release.xcconfig"; sourceTree = "<group>"; };
 		B8BD6FCC880F01A732317FF4 /* Pods-HQSportSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQSportSwift.debug.xcconfig"; path = "Target Support Files/Pods-HQSportSwift/Pods-HQSportSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +104,152 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9C29603426E1D2CB00C66943 /* community */ = {
+			isa = PBXGroup;
+			children = (
+				9C29606726E1E5BF00C66943 /* model */,
+				9C29606826E1E5BF00C66943 /* view */,
+				9C29606526E1E5BF00C66943 /* controller */,
+			);
+			path = community;
+			sourceTree = "<group>";
+		};
+		9C29603626E1D2CB00C66943 /* match */ = {
+			isa = PBXGroup;
+			children = (
+				9C29606E26E1E5E700C66943 /* model */,
+				9C29606F26E1E5E700C66943 /* view */,
+				9C29606C26E1E5E600C66943 /* controller */,
+			);
+			path = match;
+			sourceTree = "<group>";
+		};
+		9C29603826E1D2CB00C66943 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				9C29606A26E1E5CB00C66943 /* model */,
+				9C29606B26E1E5CB00C66943 /* view */,
+				9C29603926E1D2CB00C66943 /* controller */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		9C29603926E1D2CB00C66943 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C29603A26E1D2CB00C66943 /* HomeViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		9C29603B26E1D2CB00C66943 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9C29605B26E1DE7100C66943 /* Info.plist */,
+				9C29603C26E1D2CB00C66943 /* AppDelegate.swift */,
+				9C29603F26E1D2CB00C66943 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9C29604026E1D2CB00C66943 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				9C29604126E1D2CB00C66943 /* HQRequest.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		9C29604226E1D2CB00C66943 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				9C29607226E1E5F600C66943 /* model */,
+				9C29607126E1E5F600C66943 /* view */,
+				9C29607326E1E5F600C66943 /* controller */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		9C29606526E1E5BF00C66943 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C29606626E1E5BF00C66943 /* CommunityViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		9C29606726E1E5BF00C66943 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9C29606826E1E5BF00C66943 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9C29606A26E1E5CB00C66943 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9C29606B26E1E5CB00C66943 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9C29606C26E1E5E600C66943 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C29606D26E1E5E600C66943 /* MatchViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		9C29606E26E1E5E700C66943 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9C29606F26E1E5E700C66943 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9C29607126E1E5F600C66943 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9C29607226E1E5F600C66943 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9C29607326E1E5F600C66943 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C29607426E1E5F600C66943 /* MineViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		9CBF5F3826C39B2B00E37CE2 = {
 			isa = PBXGroup;
 			children = (
@@ -135,19 +275,16 @@
 		9CBF5F4326C39B2B00E37CE2 /* HQSportSwift */ = {
 			isa = PBXGroup;
 			children = (
+				9C29603B26E1D2CB00C66943 /* AppDelegate */,
+				9C29603426E1D2CB00C66943 /* community */,
+				9C29603826E1D2CB00C66943 /* home */,
+				9C29603626E1D2CB00C66943 /* match */,
+				9C29604226E1D2CB00C66943 /* mine */,
+				9C29604026E1D2CB00C66943 /* network */,
 				9CCA8ECC26CCAAD800DAE4BA /* launch.png */,
-				9CBF5F4426C39B2B00E37CE2 /* AppDelegate.swift */,
-				9CBF5F4626C39B2B00E37CE2 /* SceneDelegate.swift */,
-				9CBF5F4826C39B2B00E37CE2 /* ViewController.swift */,
+				9CBF5F4F26C39B2D00E37CE2 /* LaunchScreen.storyboard */,
 				9CBF5F4A26C39B2B00E37CE2 /* Main.storyboard */,
 				9CBF5F4D26C39B2D00E37CE2 /* Assets.xcassets */,
-				9CBF5F4F26C39B2D00E37CE2 /* LaunchScreen.storyboard */,
-				9CBF5F5226C39B2D00E37CE2 /* Info.plist */,
-				9CCA8EC226CB86FC00DAE4BA /* HomeViewController.swift */,
-				9CCA8EC426CB870B00DAE4BA /* MineViewController.swift */,
-				9CCA8EC626CB871900DAE4BA /* MatchViewController.swift */,
-				9CCA8EC826CB872B00DAE4BA /* CommunityViewController.swift */,
-				9CCA8ECA26CB98B900DAE4BA /* HQRequest.swift */,
 			);
 			path = HQSportSwift;
 			sourceTree = "<group>";
@@ -275,10 +412,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CCA8ECD26CCAAD900DAE4BA /* launch.png in Resources */,
-				9CBF5F5126C39B2D00E37CE2 /* LaunchScreen.storyboard in Resources */,
-				9CBF5F4E26C39B2D00E37CE2 /* Assets.xcassets in Resources */,
-				9CBF5F4C26C39B2B00E37CE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,14 +478,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CCA8EC726CB871900DAE4BA /* MatchViewController.swift in Sources */,
-				9CBF5F4926C39B2B00E37CE2 /* ViewController.swift in Sources */,
-				9CBF5F4526C39B2B00E37CE2 /* AppDelegate.swift in Sources */,
-				9CBF5F4726C39B2B00E37CE2 /* SceneDelegate.swift in Sources */,
-				9CCA8ECB26CB98B900DAE4BA /* HQRequest.swift in Sources */,
-				9CCA8EC326CB86FC00DAE4BA /* HomeViewController.swift in Sources */,
-				9CCA8EC526CB870B00DAE4BA /* MineViewController.swift in Sources */,
-				9CCA8EC926CB872B00DAE4BA /* CommunityViewController.swift in Sources */,
+				9C29605D26E1DE7F00C66943 /* AppDelegate.swift in Sources */,
+				9C29605E26E1DE7F00C66943 /* SceneDelegate.swift in Sources */,
+				9C29607026E1E5E700C66943 /* MatchViewController.swift in Sources */,
+				9C29607526E1E5F600C66943 /* MineViewController.swift in Sources */,
+				9C29606926E1E5BF00C66943 /* CommunityViewController.swift in Sources */,
+				9C29606026E1DE7F00C66943 /* HomeViewController.swift in Sources */,
+				9C29606326E1DE7F00C66943 /* HQRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,7 +663,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U47864M36Y;
-				INFOPLIST_FILE = HQSportSwift/Info.plist;
+				INFOPLIST_FILE = HQSportSwift/AppDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,7 +683,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U47864M36Y;
-				INFOPLIST_FILE = HQSportSwift/Info.plist;
+				INFOPLIST_FILE = HQSportSwift/AppDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
